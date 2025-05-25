@@ -1,0 +1,88 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+/* this is the navigation content */
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    font-size: 30px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li  a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 5px 10px;
+}
+/* this is the Main-header content */
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.main-image img {
+    width: 250px;
+    height: 250px;
+}
+
+/* this is the Exercises content */
+
+.Exercises {
+    border-top: #333 solid 4px;
+}
+.Exercises h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px 0;
+    font-size: 30px;
+}
+
+.exercise-list {
+    padding: 20px;
+}
+
+.exercise-item {
+    border: 2px solid #333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.exercise-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.exercise-item input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* this is the footer content */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixedbox;
+    width: 100%;
+    bottom: 0;
+}

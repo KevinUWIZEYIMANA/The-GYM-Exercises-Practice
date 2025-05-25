@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="JavaScript" href="JavaScript.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>The GYM</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>The GYM Exercises</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <header class="Main-header">
+        <div class="header-content">
+            <h1>The GYM Exercises Practice</h1>
+            <p>Your journey to fitness starts here!</p>
+        </div>
+        <div class="main-image">
+            <img src="Main-2.png" alt="Gym Icon" class="hero-icon">
+        </div>
+    </header>
+    <section class="Exercises">
+        <h2>Exercises</h2>
+        <div class="exercise-list">
+            <div class="exercise-item">
+                <h2>Minutes to Hours</h2>
+                <input type="number" placeholder="Enter minutes" id="minutes">
+                <button onclick="minutesToHours()">Minutes to Hours</button>
+                <p id="Hours"></p>
+                <script>
+                    function minutesToHours() {
+                        let minutes = document.getElementById('minutes').value;
+                        let hours = minutes / 60;
+                        document.getElementById('Hours').textContent = 'Hours: ' + hours + ' hours.';
+                    }
+                </script>
+            </div>
+            <div class="exercise-item">
+                <h2>Calculating the average</h2>
+                <p>Build your leg muscles and improve core strength.</p>
+            </div>
+            <div class="exercise-item">
+                <h2>Planks</h2>
+                <p>Enhance your core stability and endurance.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="#privacy"></a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#sitemap">Sitemap</a></li>
+            </ul>
+            <p>&copy; 2023 The GYM. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
