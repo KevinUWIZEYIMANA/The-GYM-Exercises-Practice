@@ -33,29 +33,32 @@
     </header>
     <section class="Exercises">
         <h2>Exercises</h2>
-        <div class="exercise-list">
-            <div class="exercise-item">
-                <h2>Minutes to Hours</h2>
-                <input type="number" placeholder="Enter minutes" id="minutes">
-                <button onclick="minutesToHours()">Minutes to Hours</button>
-                <p id="Hours"></p>
-                <script>
-                    function minutesToHours() {
-                        let minutes = document.getElementById('minutes').value;
-                        let hours = minutes / 60;
-                        document.getElementById('Hours').textContent = 'Hours: ' + hours + ' hours.';
-                    }
-                </script>
-            </div>
-            <div class="exercise-item">
-                <h2>Calculating the average</h2>
-                <p>Build your leg muscles and improve core strength.</p>
-            </div>
-            <div class="exercise-item">
-                <h2>Planks</h2>
-                <p>Enhance your core stability and endurance.</p>
-            </div>
+        <fieldset>
+            <legend>Date: 25,05,2025</legend>
+            <div class="exercise-list">
+                <div class="exercise-item">
+                    <h2>Minutes to Hours</h2>
+                    <input type="number" placeholder="Enter minutes" id="minutes">
+                    <button onclick="minutesToHours()">Minutes to Hours</button>
+                    <p id="Hours"></p>
+                    <script>
+                        function minutesToHours() {
+                            let minutes = document.getElementById('minutes').value;
+                            let hours = minutes / 60;
+                            document.getElementById('Hours').textContent = 'Hours: ' + hours + ' hours.';
+                        }
+                    </script>
+                </div>
+                <div class="exercise-item">
+                    <h2>Calculating the average</h2>
+                    <p>Build your leg muscles and improve core strength.</p>
+                </div>
+                <div class="exercise-item">
+                    <h2>concatenation of stings</h2>
+                    <p>Enhance your core stability and endurance.</p>
+                </div>
         </div>
+        </fieldset>
     </section>
     <footer>
         <div class="footer-content">
